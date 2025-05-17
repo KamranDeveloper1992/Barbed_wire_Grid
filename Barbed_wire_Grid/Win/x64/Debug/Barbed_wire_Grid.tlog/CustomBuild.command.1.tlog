@@ -1,0 +1,4 @@
+^C:\USERS\WINDOWS\DESKTOP\AFTEREFFECTSSDK\EXAMPLES\EFFECT\BARBED_WIRE_GRID\SKELETONPIPL.R
+cl /I "C:\Users\Windows\Desktop\AfterEffectsSDK\Examples\Effect\Barbed_wire_Grid\Win\..\..\..\Headers" /EP ".."\\"SkeletonPiPL.r" > "x64\Debug\"\\"SkeletonPiPL.rr"
+"C:\Users\Windows\Desktop\AfterEffectsSDK\Examples\Effect\Barbed_wire_Grid\Win\..\..\..\Resources\PiPLTool" "x64\Debug\SkeletonPiPL.rr" "x64\Debug\SkeletonPiPL.rrc"
+cl /D "MSWindows" /EP x64\Debug\SkeletonPiPL.rrc >               "C:\Users\Windows\Desktop\AfterEffectsSDK\Examples\Effect\Barbed_wire_Grid\Win\"\\"SkeletonPiPL".rc
